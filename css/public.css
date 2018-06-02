@@ -11,10 +11,10 @@ i,em{font-style:normal;}
 body{font:14px/1em "微软雅黑",arial;}
 table{border-collapse:collapse;}
 .clear:after{content:".";display:block; clear:both; height:0; visibility:hidden; }
-
+a:hover{text-decoration: none;color: #4496ee;}
 .border0{border:none;}
 
-
+.container{padding-left: 0px;padding-right: 0px;}
 
 /* head and bottom styles */
 
