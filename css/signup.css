@@ -1,0 +1,55 @@
+.footer{width: 1200px;background: white;margin-top: 20px;}
+.equ{padding: 20px 30px;float: left;width: 300px;}
+.equbg1{display: block;float: left;width: 70px;height: 70px;border-radius: 50%;background: url(../img/slogenIcoB.png);margin-right: 14px;background-position: 0px 0px;}
+.equbg2{display: block;float: left;width: 70px;height: 70px;border-radius: 50%;background: url(../img/slogenIcoB.png);margin-right: 14px;background-position: -72px 0px;}
+.equbg3{display: block;float: left;width: 70px;height: 70px;border-radius: 50%;background: url(../img/slogenIcoB.png);margin-right: 14px;background-position: -145px 0px;}
+.equbg4{display: block;float: left;width: 70px;height: 70px;border-radius: 50%;background: url(../img/slogenIcoB.png);margin-right: 14px;background-position: -216px 0px;}
+.equ h4{padding-top: 14px;}
+.equ  p{float: left;font-size: 14px;line-height: 28px;}
+.footer dl{float: left;width: 190px;padding: 30px;}
+.footer dl dd img{width: 100%;}
+.footer dl dt{line-height: 36px;}
+.footer dl dd{line-height: 36px;font-size: 12px;}
+.footer dl{text-align: center;}
+
+.copy{width: 1200px;margin-top: 20px;text-align: center;padding-bottom: 50px;}
+.copy p{line-height: 36px;position: relative;}
+.copy p a::after{content: "";display: inline-block;width: 1px;height: 12px;background: #d0d0d0;margin: 0 16px;}
+.copy p a:last-child::after{display: none;}
+.copy h5{font-size: 12px;line-height: 18px;}
+
+/* ------------------------------------------------------------- */
+
+.logo{width: 1040px;    height: 150px;    padding-top: 50px;}
+.logo img,.logo h3{float: left;line-height: 70px;margin-right: 16px;}
+form{width: 1040px !important;background: white;padding-top: 50px;border: 1px solid #d0d0d0;}
+form p{color: #999;font-size: 12px;font-weight: normal;line-height: 36px;margin-bottom:30px; }
+form p label{font-weight: normal;display: inline-block;width: 150px;text-align: right;margin-right: 10px;font-size: 14px;margin-left: 90px;}
+form p label b{color: #fb5e5f;}
+form p:not(:nth-child(5)) input{width: 310px;height: 40px;border: 1px solid #d0d0d0;padding: 0 5px;}
+form p span{
+    padding: 0 5px;
+    display: none;
+    width: 310px;
+    /* border: 1px solid #fb5e5f; */
+    height: 40px;
+    margin-left: 5px;
+    /* color: #fb5e5f; */
+}
+form p:nth-child(5) i{margin: 0 10px;font-size: 18px;}
+form p:nth-child(5) a{color: #3184dd;    margin-right: 14px;}
+form p:nth-child(5) input{border: 1px solid #d0d0d0;padding: 0 5px;}
+form p:nth-child(1) input{background: url(../img/iconLogin.png) no-repeat 280px 12px;}
+form p:nth-child(2) input{background: url(../img/iconLogin.png) no-repeat 280px -18px;}
+form p:nth-child(3) input{background: url(../img/iconLogin.png) no-repeat 280px -18px;}
+form p:nth-child(4) input{background: url(../img/iconLogin.png) no-repeat 280px -50px;}
+form p:nth-child(5) input{background: url(../img/iconLogin.png) no-repeat 128px -20px;}
+form p:nth-child(6) input{width: 12px;height: 12px;margin-left: 250px;}
+form p:nth-child(6) a{color: #3184dd;}
+form p:nth-child(7) input{margin-left: 250px;background: #fb5e5f;font-size: 18px;color: white;}
+form p dl{position: absolute;font-size: 8px;width: 150px;top: 0px;left: 0px;}
+form p dl dt{float: left;width: 50px;font-weight: normal;}
+form p dl dd{float: left;width: 20px;}
+
+
+

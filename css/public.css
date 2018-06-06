@@ -8,7 +8,7 @@ img{display:block; }
 fieldset,img,iframe{border:none;}
 h1,h3,h4,h5,h6,h2,b,strong{font-weight:normal;}
 i,em{font-style:normal;}
-body{font:14px/1em "微软雅黑",arial;}
+body{font:14px/1em "微软雅黑",arial;background: #f5f5f5;}
 table{border-collapse:collapse;}
 .clear:after{content:".";display:block; clear:both; height:0; visibility:hidden; }
 a:hover{text-decoration: none;color: #4496ee;}

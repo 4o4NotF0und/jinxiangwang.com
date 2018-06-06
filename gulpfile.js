@@ -12,7 +12,7 @@ gulp.task('js',function(){
     gulp.src('src/js/*.js').pipe(uglify()).pipe(rename({"suffix":".min"})).pipe(concat("main.js")).pipe(gulp.dest("dist"));
 })
 gulp.task('sass',function(){
-    gulp.src('src/scss/*.scss').pipe(sass()).pipe(rename({"suffix":".min"})).pipe(cssnano()).pipe(gulp.dest("dist"));
+    gulp.src('src/scss/*.scss').pipe(sass()).pipe(rename({"suffix":".min"})).pipe(cssnano()).pipe(concat("main.css")).pipe(gulp.dest("dist"));
 })
 gulp.task('watch',function(){
     gulp.watch(['src/js/*.js','src/scss/*.scss'],['js','sass']);
