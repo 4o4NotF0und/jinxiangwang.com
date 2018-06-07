@@ -6,7 +6,7 @@ $pwd = $_POST['pwd'];
 $tel = $_POST['tel'];
 
 //4.编写sql语句
-$sql = "INSERT INTO `jinxiang`( `uname`, `pwd`, `tel`) VALUES ('$uname',$pwd,$tel)";
+$sql = "INSERT INTO `sign`( `uname`, `pwd`, `tel`) VALUES ('$uname',$pwd,$tel)";
 //5.执行sql语句
 $row = mysql_query($sql);
 

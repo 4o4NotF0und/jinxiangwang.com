@@ -1,0 +1,47 @@
+ .logo{width: 1040px;    height: 110px;    padding-top: 25px;}
+
+
+.copy{width: 1200px;margin-top: 20px;text-align: center;padding-bottom: 50px;}
+.copy p{line-height: 36px;position: relative;margin-top: 100px;}
+.copy p a::after{content: "";display: inline-block;width: 1px;height: 12px;background: #d0d0d0;margin: 0 16px;}
+.copy p a:last-child::after{display: none;}
+.copy h5{font-size: 12px;line-height: 18px;}
+/* -------------------------------------------------------------------------------- */
+._banner{height: 400px;background: url(../img/hQkUng1S_L.jpg) no-repeat;background-position: center;}
+.banner{width: 1040px;}
+.banner>a{display: block;width: 640px;height: 400px;float: left;}
+.banner form{float: left;background: white;padding: 30px 40px;width: 400px;    height: 470px;margin-top: 20px;}
+.banner form h3 span{font-size: 12px;float: right;margin-top: 12px;}
+.banner form h3 span a{color: #3184dd}
+.banner form>i{display: block;width: 318px;;height: 20px;border: 1px solid #fb5e5f;line-height: 20px;color: #fb5e5f;font-size: 12px;padding-left: 20px;background: url(../img/iconLogin.png) no-repeat 1px -123px;margin-top: 20px;position: relative;}
+.banner form>i b{display: block;width: 318px;;height: 20px;position: absolute;top: -1px;left: -1px;background: white;}
+.banner form p{margin-top: 20px;}
+.banner form p:first-of-type label{display: block;width: 38px;height: 38px;float: left;background: url(../img/iconlogin2.png);border: 1px solid #d0d0d0;border-right: 0;}
+.banner form p:first-of-type input{padding-left: 8px;display: block;height: 38px;width:280px;float: left;border: 1px solid #d0d0d0;border-left: 0;}
+.banner form p:first-of-type input::-webkit-input-placeholder{color: #d0d0d0}
+.banner form p:nth-of-type(2) label{display: block;width: 38px;height: 38px;float: left;background: url(../img/iconlogin2.png) no-repeat -40px 0px;border: 1px solid #d0d0d0;border-right: 0;}
+.banner form p:nth-of-type(2) input{padding-left: 8px;display: block;height: 38px;width:280px;float: left;border: 1px solid #d0d0d0;border-left: 0;}
+.banner form p:nth-of-type(2) input::-webkit-input-placeholder{color: #d0d0d0}
+
+.banner form p:nth-of-type(3) label{display: block;width: 38px;height: 38px;float: left;background: url(../img/iconlogin2.png) no-repeat -40px 0px;border: 1px solid #d0d0d0;border-right: 0;float: left;}
+.banner form p:nth-of-type(3) input{padding-left: 8px;display: block;height: 38px;width:126px;float: left;border: 1px solid #d0d0d0;border-left: 0;float: left;}
+.banner form p:nth-of-type(3){font-size: 12px;}
+.banner form p:nth-of-type(3) i{font-size: 20px;line-height: 38px;padding: 0 30px;float: left;display: block;width: 108px;}
+.banner form p:nth-of-type(3) a{line-height: 18px;float: right;display: block;float: left;height: 38px;;}
+.banner form p:nth-of-type(3) a span{display: block;line-height: 18px;}
+.banner form p:nth-of-type(4){font-size: 12px;}
+.banner form p:nth-of-type(4) a{float: right;}
+.banner form p:nth-of-type(4) a:hover{color: #fb5e5f;}
+.banner form p:nth-of-type(5) input{display: block;border: none;width: 320px;height: 38px;background: #4496ee;color: white;font-weight: bold;font-size: 16px;}
+.banner form p:nth-of-type(6){font-size: 12px;color: #d0d0d0;}
+.banner form p:nth-of-type(7) a{font-size: 12px;line-height: 20px;padding: 0 8px;}
+.banner form p:nth-of-type(7) a::before{content: "";display: inline-block;width: 24px;height: 20px;background: url(../img/iconlogin2.png) no-repeat -85px 2px;vertical-align: middle;}
+.banner form p:nth-of-type(7) a:nth-child(2)::before{background-position: -82px -22px;}
+.banner form p:nth-of-type(7) a:nth-child(3)::before{background-position: -82px -45px;}
+.banner form p:nth-of-type(7) a:nth-child(2){border-left: 1px solid #d0d0d0}
+.banner form p:nth-of-type(7) a:nth-child(3){border-left: 1px solid #d0d0d0}
+
+
+
+
+
